@@ -45,3 +45,7 @@
 0:0:0:0:0:0:0:1 - - [10/Apr/2022:20:04:53 +0900] "POST /sample/exUploadPost HTTP/1.1" 404 800
 0:0:0:0:0:0:0:1 - - [10/Apr/2022:20:05:09 +0900] "POST /sample/exUploadPost HTTP/1.1" 404 800
 0:0:0:0:0:0:0:1 - - [10/Apr/2022:20:09:47 +0900] "GET /sample/ex04?name=aaa&age=bbb&page=9 HTTP/1.1" 400 762
+127.0.0.1 - - [10/Apr/2022:20:10:13 +0900] "GET / HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:20:10:14 +0900] "GET /sample/ex04?name=aaa&age=bbb&page=9 HTTP/1.1" 404 787
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:20:10:51 +0900] "GET /sample/ex04?name=aaa&age=bbb&page=9 HTTP/1.1" 200 5263
+0:0:0:0:0:0:0:1 - - [10/Apr/2022:20:13:46 +0900] "GET /kkk HTTP/1.1" 404 178
