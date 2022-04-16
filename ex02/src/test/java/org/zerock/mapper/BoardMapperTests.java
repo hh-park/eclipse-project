@@ -59,7 +59,7 @@ public class BoardMapperTests {
 	public void testRead() {
 
 		// 존재하는 게시물 번호로 테스트
-		BoardVO board = mapper.read(5L);
+		BoardVO board = mapper.read(15L);
 
 		log.info(board);
 	}
@@ -67,7 +67,7 @@ public class BoardMapperTests {
 	@Test
 	public void testDelete() {
 
-		log.info("DELETE COUNT: " + mapper.delete(3L));
+		log.info("DELETE COUNT: " + mapper.delete(15L));
 	}
 
 	@Test
@@ -75,9 +75,9 @@ public class BoardMapperTests {
 
 		BoardVO board = new BoardVO();
 		// 실행전 존재하는 번호인지 확인할 것
-		board.setBno(5L);
-		board.setTitle("수정된 제목");
-		board.setContent("수정된 내용");
+		board.setBno(14L);
+		board.setTitle("수정된 제목???");
+		board.setContent("수정된 내용??????");
 		board.setWriter("user00");
 
 		int count = mapper.update(board);
