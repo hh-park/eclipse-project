@@ -6,4 +6,11 @@
 			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
 		</list>
 	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="1941"/>
+		<item key="DIALOG_Y_ORIGIN" value="-1005"/>
+		<item key="DIALOG_WIDTH" value="581"/>
+		<item key="DIALOG_HEIGHT" value="452"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
+	</section>
 </section>
