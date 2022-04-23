@@ -31,7 +31,6 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.zerock.mapper.BoardMapper"/>
-<fullyQualifiedTypeName name="lombok.Setter"/>
 <fullyQualifiedTypeName name="org.zerock.service.BoardServiceImpl"/>
 <fullyQualifiedTypeName name="lombok.extern.log4j.Log4j"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
@@ -40,8 +39,12 @@
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-<fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
+<fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="lombok.ToString"/>
 </qualifiedTypeNameHistroy>
